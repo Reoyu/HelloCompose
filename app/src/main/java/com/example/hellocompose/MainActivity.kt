@@ -58,7 +58,7 @@ class MainActivity : ComponentActivity() {
                         )
                         Text(
                             text = "NIM: 01082240021",
-                            style = MaterialTheme.typography.bodyLarge,
+                            style = MaterialTheme.typography.titleMedium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
                         Text(

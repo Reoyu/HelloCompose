@@ -1,0 +1,13 @@
+# Keystore
+*.jks
+*.keystore
+
+# Konfigurasi lokal
+local.properties
+google-services.json
+
+# Build output
+build/
+.gradle/
+.idea/
+*.iml

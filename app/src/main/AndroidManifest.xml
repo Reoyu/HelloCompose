@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ch05Starter">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!--
+                TODO 3 (Tantangan): daftarkan intent-filter deep link di sini agar
+                "myapp://article/{id}" bisa membuka app ini langsung dari luar
+                (browser/ADB). Contoh:
+
+                <intent-filter>
+                    <action android:name="android.intent.action.VIEW" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                    <category android:name="android.intent.category.BROWSABLE" />
+                    <data android:scheme="myapp" android:host="article" />
+                </intent-filter>
+
+                Setelah ini terdaftar, tambahkan juga `deepLinks = listOf(navDeepLink { ... })`
+                pada composable(Routes.Detail.route, ...) di MainScreen.kt — cari TODO 3 di sana.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="myapp" android:host="article" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ch07.ui.list.NoteListViewModelTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-07T06:39:57" hostname="REOYU" time="0.115">
+  <properties/>
+  <testcase name="hapus menghilangkan catatan dari daftar" classname="com.example.ch07.ui.list.NoteListViewModelTest" time="0.076"/>
+  <testcase name="catatan yang disematkan tampil paling atas" classname="com.example.ch07.ui.list.NoteListViewModelTest" time="0.01"/>
+  <testcase name="togglePin menyematkan lalu melepas" classname="com.example.ch07.ui.list.NoteListViewModelTest" time="0.014"/>
+  <testcase name="pencarian ditunda 300 ms lalu memfilter judul atau isi" classname="com.example.ch07.ui.list.NoteListViewModelTest" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

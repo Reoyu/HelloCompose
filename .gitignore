@@ -1,0 +1,12 @@
+# Berisi sdk.dir dan NEWS_API_KEY -- jangan pernah di-commit
+local.properties
+
+.gradle/
+build/
+app/build/
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
